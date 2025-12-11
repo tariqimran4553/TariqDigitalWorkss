@@ -1,0 +1,15 @@
+* { margin:0; padding:0; box-sizing:border-box; font-family:Segoe UI,sans-serif; } 
+body { background: url('assets/wallpaper.jpg') no-repeat center center fixed; background-size:cover; color:#fff; } 
+header { display:flex; justify-content:space-between; align-items:center; padding:20px 50px; background-color:rgba(0,0,0,0.7); position:sticky; top:0; } 
+header .logo { width:100px; } 
+header nav a { color:#fff; margin-left:20px; text-decoration:none; font-weight:bold; } 
+header nav a:hover { color:#00ff00; } 
+.hero { height:90vh; display:flex; flex-direction:column; justify-content:center; align-items:center; text-align:center; background-color:rgba(0,0,0,0.4); } 
+.hero h1 { font-size:3rem; color:#ffdd00; margin-bottom:10px; } 
+.hero p { font-size:1.5rem; } 
+section { padding:80px 50px; background-color:rgba(0,0,0,0.5); margin-bottom:20px; border-radius:10px; } 
+form { display:flex; flex-direction:column; max-width:500px; } 
+form input, form textarea { margin-bottom:15px; padding:10px; border:none; border-radius:5px; } 
+form button { padding:10px; background-color:#00ff00; border:none; border-radius:5px; font-weight:bold; cursor:pointer; } 
+form button:hover { background-color:#00cc00; } 
+footer { text-align:center; padding:20px; background-color:rgba(0,0,0,0.7); } 
